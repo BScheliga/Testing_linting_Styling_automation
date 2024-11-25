@@ -15,3 +15,11 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
+```{r bad core for fixing}
+
+NumberIsOne <- 1
+
+ifelse(NumberIsOne = 1, print("Yes"), print("No"))   
+
+```
+
