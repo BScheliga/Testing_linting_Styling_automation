@@ -29,12 +29,4 @@ jobs:
 
     - name: Check styling
       run: |
-        Rscript -e 'library(styler); style_dir(".", dry = "off")'
-
-- name: Commit and push changes
-  run: |
-    git config user.name "github-actions"
-    git config user.email "actions@github.com"
-    git add .
-    git commit -m "Style fixes applied by GitHub Actions" || echo "No changes to commit"
-    git push
+        Rscript -e 'library(styler); style_dir(".", dry = "on")'
