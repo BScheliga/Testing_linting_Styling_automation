@@ -21,6 +21,6 @@ NumberIsOne <- 1
 
 ifelse(NumberIsOne == 1, print("Yes. it is a number"), print("No"))   
 
-
+1 + 2  
 ```
 
